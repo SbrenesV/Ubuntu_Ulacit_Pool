@@ -1,0 +1,27 @@
+sudo = da privilegios de admin,
+sudo su = super usuario.
+
+man = me dice qué hace cada comando que quiera usar.
+
+tab: despliega ventana de ayuda sobre qué hacer después de escribir un comando
+
+whoami = cual usuario estoy usando, normal o root
+clear: limpiar ventana de consola
+top: despliega  una  variada  información  sobre  el estado del procesador 
+pstree: despliega procesos en forma de árbol
+ps -aux:
+sudo apt install htop: instala htop
+sudo apt install openssh-server: instala el conjunto de aplicaciones que permiten realizar comunicaciones cifradas a través de una red 
+ip addr: saber mi ip
+cat : abrir carpetas, siempre empieza con /. es la carpeta raíz
+tail -10 /[direccion] : abre los últimos 10 lineas de archivo
+head -10 /var/log/syslog : abre las 10 primeras
+| : ayuda a combinar distintos comandos
+more : visualiza archivos
+q : sale de los menú en el terminal
+ls : muestra las carpetas en las que está
+cd : cambia entre carpetas
+cp : copia archivos: cp /var/log/syslog /home/ulacit/Descargas/
+rm : elimina archivos con dirección o estando en la carpeta
+history : historial de comandos digitados
+telnet towel.blinkenlights.nl
